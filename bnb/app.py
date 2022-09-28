@@ -40,6 +40,8 @@ def login():
     else:
         return render_template("html/login.html")
 
+
+# test
 if __name__=="__main__":
     app.run(debug=True)
 
