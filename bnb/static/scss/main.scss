@@ -1,0 +1,31 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+.header{
+	height: 5%;
+	background-color: black;
+}
+.item-header{
+	width: 30%;
+	height: 100%;
+	margin: 0% 0% 0% 1.5%;
+	&__title{
+		margin: 5px 0% 0% 0%;
+		font-size: 100%;
+		color: white;
+	}
+	&__icon{
+		width: 12%;
+		height: 70%;
+	}
+}
+
+.container{
+	height: 30%;
+}
+.header__btn{
+	:hover{ display: }
+}
